@@ -8,20 +8,20 @@
     top: 0;
     background-color: #24272a;
     z-index: 1000;
-	direction: ltr;
+    direction: ltr;
     -webkit-transition: all .5s ease;
     -o-transition: all .5s ease;
     transition: all .5s ease;
 }
 
 .style-options:before {
-    content: 'Tadashi';
+    content: 'Kazumi';
     position: relative;
     display: block;
     width: 100%;
     top: 0;
     text-align: center;
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 18px;
     padding: 14px 0;
@@ -61,7 +61,7 @@
     animation-timing-function: linear;
 }
 
-.toggle-btn span svg g [fill]{
+.toggle-btn span svg g [fill] {
     fill: #fff;
 }
 
@@ -77,7 +77,7 @@
 }
 
 .style-options .style-menu ul {
-	margin: 0;
+    margin: 0;
     background: rgba(0, 0, 0, .2);
 }
 
@@ -130,7 +130,7 @@
 .style-options .style-menu .style-color ul li a {
     width: 40px;
     height: 40px;
-	-webkit-border-radius: 50%;
+    -webkit-border-radius: 50%;
     border-radius: 50%;
     display: inline-block;
 }
